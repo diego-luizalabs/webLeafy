@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define o padrão da fonte e suavização */
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+/* Garante que a rolagem suave funcione no HTML */
+html {
+  scroll-behavior: smooth;
+}
